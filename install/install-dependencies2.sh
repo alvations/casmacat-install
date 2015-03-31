@@ -31,6 +31,10 @@ apt-get -yq install imagemagick graphviz
 # Perl library needed for NIST BLEU
 /opt/casmacat/install/cpanm XML::Twig
 
+# dependencies for srilm
+#echo 'STEP 7.secret/9: installing software for srilm '`date +%s`
+#apt-get install tcl tcl-dev csh gawk
+
 # needed for thot / itp server
 echo 'STEP 8/9: installing software for thot '`date +%s`
 apt-get -yq install libtool pkg-config autoconf-archive swig python-dev libperl-dev
