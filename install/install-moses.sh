@@ -86,6 +86,20 @@ fi
 #./configure
 #make -j8
 
+# SRILM
+#echo 'STEP 5.srilm: installing srilm'`date +%s`
+#mkdir -p /opt/moses/external/srilm
+#mkdir /opt/moses/external/bin/srilm
+#cd /opt/moses/external/srilm
+#if [ ! -d srilm-1.7.1]
+#then
+#  wget https://moses-suite.googlecode.com/files/srilm-1.7.1.tar.gz
+#  tar xzf srilm-1.7.1.tar.gz
+#  sed -i '8i\SRILM=/opt/moses/external/srilm\' Makefile # inserts the path to the makefile the textfile
+#  make NO_TCL=1 MACHINE_TYPE=i686-ubuntu World
+#  cp bin/i686-ubuntu/ngram-count /opt/moses/external/bin/srilm/
+#fi
+
 # Moses
 echo 'STEP 6/7: compiling moses (may take a while) '`date +%s`
 cd /opt/moses
