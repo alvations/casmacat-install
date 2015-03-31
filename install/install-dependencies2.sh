@@ -32,7 +32,7 @@ apt-get -yq install imagemagick graphviz
 /opt/casmacat/install/cpanm XML::Twig
 
 # dependencies for srilm
-#echo 'STEP 7.secret/9: installing software for srilm '`date +%s`
+#echo 'STEP 7.srilm/9: installing software for srilm '`date +%s`
 #apt-get install tcl tcl-dev csh gawk
 
 # needed for thot / itp server
