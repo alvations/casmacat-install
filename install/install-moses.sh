@@ -93,7 +93,7 @@ fi
 #cd /opt/moses/external/srilm
 #if [ ! -d srilm-1.7.1]
 #then
-#  wget https://moses-suite.googlecode.com/files/srilm-1.7.1.tar.gz
+#  wget https://db.tt/i1niluth # dropbox link to SRILM 1.7.1
 #  tar xzf srilm-1.7.1.tar.gz
 #  sed -i '8i\SRILM=/opt/moses/external/srilm\' Makefile # inserts the path to the makefile the textfile
 #  make NO_TCL=1 MACHINE_TYPE=i686-ubuntu World
