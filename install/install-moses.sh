@@ -91,7 +91,7 @@ fi
 #mkdir -p /opt/moses/external/srilm
 #mkdir /opt/moses/external/bin/srilm
 #cd /opt/moses/external/srilm
-#if [ ! -d srilm-1.7.1]
+#if [ ! -d srilm-1.7.1 ]
 #then
 #  wget https://db.tt/i1niluth # dropbox link to SRILM 1.7.1
 #  tar xzf srilm-1.7.1.tar.gz
